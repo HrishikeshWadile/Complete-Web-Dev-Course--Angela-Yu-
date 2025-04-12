@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tours</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5a9e3;
+        }
+        .navbar {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .card {
+            transition: transform 0.2s;
+            border: none;
+            height: 100%;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+        .card img {
+            border-radius: 15px 15px 0 0;
+            height: 50%;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card-title {
+            color: #007bff;
+            font-weight: bold;
+        }
+        .card-text {
+            font-size: 1rem;
+            color: #555;
+        }
+        footer {
+            background-color: #343a40;
+        }
+        footer a {
+            color: #ffc107;
+        }
+        footer a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Tourist Places</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="destinations.html">Destinations</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="tours.html">Tours <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Tours Content -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Our Tours</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/european highlights.jpeg" class="card-img-top" alt="Tour 1">
+                    <div class="card-body">
+                        <h5 class="card-title">European Highlights</h5>
+                        <p class="card-text">A 10-day tour covering the best of Europe, including Paris, Rome, and Berlin.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/asian highlights.jpeg" class="card-img-top" alt="Tour 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Asian Adventure</h5>
+                        <p class="card-text">Explore the wonders of Asia with visits to Tokyo, Beijing, and Bangkok.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/american tour highlights.jpeg" class="card-img-top" alt="Tour 3">
+                    <div class="card-body">
+                        <h5 class="card-title">American Road Trip</h5>
+                        <p class="card-text">A thrilling road trip across the USA, from New York to Los Angeles.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center py-4 bg-dark text-white">
+        <p>&copy; 2025 Tourist Places. All rights reserved.</p>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="#" class="text-white">Privacy Policy</a></li>
+            <li class="list-inline-item"><a href="#" class="text-white">Terms of Service</a></li>
+            <li class="list-inline-item"><a href="#" class="text-white">Contact</a></li>
+        </ul>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

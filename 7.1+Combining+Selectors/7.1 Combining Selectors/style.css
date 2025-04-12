@@ -1,0 +1,21 @@
+/* Write your code here: */
+h1, h2 {
+    color: blueviolet;
+}
+
+p.done {
+    color:brown;
+}
+
+.list {
+    color: blue;
+}
+
+li.done{
+    color: green;
+}
+
+ul p.done{
+    color: black;
+    font-size: 0.5rem;
+}
